@@ -1,0 +1,19 @@
+name: Delete old workflow runs
+on:
+  repository_dispatch:
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
+
+jobs:
+  del_runs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete workflow runs
+        uses: Fitz77777/delete-workflow-runs@main
+        with:
+          retain_days: 1
+          keep_minimum_runs: 3
