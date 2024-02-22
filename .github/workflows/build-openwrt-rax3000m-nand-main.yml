@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt Rax3000m Nand
+name: Build OpenWrt Rax3000m Nand Main
 
 on:
   repository_dispatch:
