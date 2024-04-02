@@ -25,6 +25,6 @@ rm -rf package/wwan
 git clone --depth=1 https://github.com/Siriling/5G-Modem-Support package/wwan
 rm -rf package/wwan/rooter
 git clone --depth=1 https://github.com/Siriling/OpenWRT-MyConfig 
-cp OpenWRT-MyConfig/blob/main/configs/lede/private/applications/luci-app-sms-tool/root/etc/config/* package/wwan/luci-app-sms-tool/root/etc/config
+cp OpenWRT-MyConfig/configs/lede/private/applications/luci-app-sms-tool/root/etc/config/* package/wwan/luci-app-sms-tool/root/etc/config
 
 
