@@ -20,6 +20,9 @@
 #add istore
 echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
 
+# add modemfeed
+echo 'src-git modemfeed https://github.com/koshev-msk/modemfeed.git' >> feeds.conf.default
+
 #5G信号插件，拨号工具，驱动
 rm -rf package/wwan
 git clone --depth=1 https://github.com/Siriling/5G-Modem-Support package/wwan
