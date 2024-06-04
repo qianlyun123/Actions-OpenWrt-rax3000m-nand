@@ -25,7 +25,7 @@ echo 'src-git modemfeed https://github.com/koshev-msk/modemfeed.git' >> feeds.co
 
 #5G信号插件，拨号工具，驱动
 rm -rf package/wwan
-git clone --depth=1 https://github.com/dumpmemory/5G-Modem-Support package/wwan
+git clone --depth=1 https://github.com/Siriling/5G-Modem-Support package/wwan
 rm -rf package/wwan/rooter
 git clone --depth=1 https://github.com/Siriling/OpenWRT-MyConfig 
 cp OpenWRT-MyConfig/configs/lede/private/applications/luci-app-sms-tool/root/etc/config/* package/wwan/luci-app-sms-tool/root/etc/config
