@@ -45,7 +45,7 @@ echo 'src-git modemfeed https://github.com/koshev-msk/modemfeed.git' >> feeds.co
 # 存储相关应用
 # mkdir autoshare-samba
 # mkdir luci-app-samba4
-#cp -rf ../kiddin9/autoshare-samba/* autoshare-samba
+# cp -rf ../kiddin9/autoshare-samba/* autoshare-samba
 # cp -rf ../kiddin9/luci-app-samba4/* luci-app-samba4
 
 # 5G通信模组拨号工具
