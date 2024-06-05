@@ -43,10 +43,10 @@ echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.defa
 echo 'src-git modemfeed https://github.com/koshev-msk/modemfeed.git' >> feeds.conf.default
 
 # 存储相关应用
-mkdir autoshare-samba
-mkdir luci-app-samba4
-cp -rf ../kiddin9/autoshare-samba/* autoshare-samba
-cp -rf ../kiddin9/luci-app-samba4/* luci-app-samba4
+# mkdir autoshare-samba
+# mkdir luci-app-samba4
+#cp -rf ../kiddin9/autoshare-samba/* autoshare-samba
+# cp -rf ../kiddin9/luci-app-samba4/* luci-app-samba4
 
 #5G信号插件，拨号工具，驱动
 rm -rf package/wwan
